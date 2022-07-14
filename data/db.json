@@ -1,0 +1,14 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Leetcode 322",
+      "ingredients": [
+        "DP"
+      ],
+      "method": "Whenever I am trying to get the solution for n, I already have the solution for all the values below n which can be used. Create an array dp to keep track of all the solution from 0 to amount. Fill the dp array using the for loop from i=1 to amount. Try each coin one by one to crate amount i.  dp[i] = Math.min(dp[i],dp[i-coin]+1)",
+      "cookingTime": "medium"
+    }
+
+  ]
+}
